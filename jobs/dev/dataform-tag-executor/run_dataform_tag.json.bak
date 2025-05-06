@@ -1,6 +1,6 @@
 {
   "dataform_location":"us-central1",
-  "dataform_project_id":"pso-chi-training",
+  "dataform_project_id":"<PROJECT_ID>",
   "repository_name": "sample-repo-1",
   "branch": "main",
   "tags": [

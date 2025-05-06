@@ -10,7 +10,7 @@
   "dataflow_job_params": {
     "driverJars": "gs://pso-chi-training_aef_artifacts_bucket/jdbcjars/postgresql-42.7.3.jar",
     "driverClassName": "org.postgresql.Driver",
-    "connectionURL": "jdbc:postgresql://10.60.0.3:5432/postgres",
+    "connectionURL": "jdbc:postgresql://<DB_PRIVATE_IP>:5432/postgres",
     "outputTable": "pso-chi-training:aef_landing_sample_dataset.raw_suppliers",
     "query": "SELECT * FROM public.suppliers",
     "bigQueryLoadingTemporaryDirectory": "gs://pso-chi-training-temp/jdbc_temp/suppliers/",

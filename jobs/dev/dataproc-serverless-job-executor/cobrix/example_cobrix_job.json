@@ -1,5 +1,5 @@
 {
-  "copybook_file": "gs://<PROJECT_ID>_aef_jobs_bucket/dataproc-serverless-job-executor/cobrix/example_copybook.cpy",
-  "source_data_folder": "gs://<PROJECT_ID>-my-sample-data-bucket/companies_mainframe/companies_data.dat",
-  "target_data_folder": "gs://<PROJECT_ID>-my-sample-data-bucket/companies"
+  "copybook_file": "gs://pso-chi-training_aef_jobs_bucket/dataproc-serverless-job-executor/cobrix/example_copybook.cpy",
+  "source_data_folder": "gs://pso-chi-training-my-sample-data-bucket/companies_mainframe/companies_data.dat",
+  "target_data_folder": "gs://pso-chi-training-my-sample-data-bucket/companies"
 }
